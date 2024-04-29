@@ -13,7 +13,7 @@ class O6
 			
 			st = cn.createStatement();
 			st.execute("create  table stud(rno number,name varchar2(20))");
-			st.execute("insert into stud values(1,'Karan')");
+			st.execute("insert into stud values(1,'Harsh')");
 			st.execute("select * from stud");
 			rs = st.getResultSet();
 			while(rs.next())
