@@ -1,0 +1,4 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `rec_update`(IN `no` INT, IN `nm` VARCHAR(100), IN `ct` VARCHAR(100))
+update stud set name=nm,city=ct where id=no$$
+DELIMITER ;

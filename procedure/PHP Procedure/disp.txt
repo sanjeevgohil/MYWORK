@@ -1,0 +1,4 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `disp`(IN `no` INT(100))
+select city,name from stud where id=no$$
+DELIMITER ;

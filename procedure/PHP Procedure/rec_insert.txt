@@ -1,0 +1,4 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `rec_insert`(IN `nm` VARCHAR(100), IN `ct` VARCHAR(100))
+insert into stud(name,city) VALUES(nm,ct)$$
+DELIMITER ;
